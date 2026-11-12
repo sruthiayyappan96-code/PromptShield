@@ -1,0 +1,13 @@
+ExampleCorp Leave Policy (fictional sample document)
+
+Casual leave: Every employee gets 12 days of casual leave per calendar year. Casual leave can be combined with at most 3 days of earned leave.
+
+Sick leave: Employees get 10 days of paid sick leave per year. A medical certificate is required if sick leave lasts more than 2 consecutive days.
+
+Earned leave: Employees earn 15 days of earned leave per year. Up to 30 unused earned leave days can be carried forward to the next year.
+
+Applying for leave: Submit the leave request in the HR portal at least 3 working days before the leave starts. Sick leave and emergencies are exceptions to this notice period.
+
+Maternity leave: Female employees are eligible for 26 weeks of paid maternity leave as per law.
+
+Contact: For leave questions contact the HR desk at hr@examplecorp.com or call 9876543210.

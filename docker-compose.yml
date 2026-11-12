@@ -1,0 +1,18 @@
+services:
+  promptshield:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      # Ollama keeps running on your laptop; the container talks to it here
+      - OLLAMA_HOST=http://host.docker.internal:11434
+      - CHROMA_PATH=/data/chroma_db
+      - LOG_PATH=/data/logs/blocked.jsonl
+      - CHAT_MODEL=llama3.2
+    volumes:
+      - promptshield_data:/data
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+volumes:
+  promptshield_data:
